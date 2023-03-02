@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a7afcf070aa8aa4a943d63aaa1947f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyFactory: {fileID: 4748476029263177032, guid: 14d20f91b1d977b4f97d36043525404b, type: 3}
+  enemyFactory: {fileID: 3185774393953881439, guid: dd8361c1db531d24fb3ddbd7d8119359, type: 3}
   maxCount: 1
 --- !u!1 &705507993
 GameObject:
@@ -283,7 +283,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!20 &794932908
 Camera:
   m_ObjectHideFlags: 0
@@ -937,7 +937,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1688726418
 Transform:
   m_ObjectHideFlags: 0

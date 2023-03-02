@@ -44,7 +44,11 @@ public class EnemyManager : MonoBehaviour
                 // 6. 랜덤한 위치에 배치하고싶다.
                 Vector3 origin = Camera.main.transform.position;
 
-                Vector3 newPosition = origin + Random.insideUnitSphere.normalized * Random.Range(5, 10);
+                Vector3 randDir = Random.insideUnitSphere.normalized;
+
+                randDir.y = 0;
+
+                Vector3 newPosition = origin + randDir * Random.Range(5, 10);
 
                 enemy.transform.position = newPosition;
             }
